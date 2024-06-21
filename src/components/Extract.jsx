@@ -82,7 +82,7 @@ function Extract() {
                 <h2>Result</h2>
                 <p id={styles.extractMessageTextAreaLabel}>{result.length} Characters</p>
                 <div className={styles.extractResultArea}>
-                    <p>{result}</p>
+                    <p style={{color:'#c5c6c7'}}>{result}</p>
                 </div>
             </div>
             {loading &&
