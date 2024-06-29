@@ -28,7 +28,7 @@ function Extract() {
         }
         setImage(e.target.files[0]);
         if (e.target.files.length > 0) {
-            setFileName(e.target.files[0].name);
+            setFileName(e.target.files[0].name);setResult('');
         } else {
             setResult('')
             setFileName('Drag & Drop file here or click to choose');
